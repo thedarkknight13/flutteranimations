@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'dart:math' show pi;
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+class RotatingContainer extends StatefulWidget {
+  const RotatingContainer({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<RotatingContainer> createState() => _RotatingContainerState();
 }
 
-class _MyHomePageState extends State<MyHomePage>
+class _RotatingContainerState extends State<RotatingContainer>
     with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<double> _animation;
