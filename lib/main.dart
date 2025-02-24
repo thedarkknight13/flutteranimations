@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutteranimations/rotating_around_multiple_axes/rotating_around_multiple_axes.dart';
+import 'package:flutteranimations/flutter_3d/flutter_3d.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: RotatingAroundMultipleAxes(),
+      home: Flutter3d(),
     );
   }
 }
