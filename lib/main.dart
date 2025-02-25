@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutteranimations/hero_animations/example_hero_animations.dart';
+import 'package:flutteranimations/implicit_animations/example_implicit_animations.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ExampleHeroAnimations(),
+      home: ExampleImplicitAnimations(),
     );
   }
 }
