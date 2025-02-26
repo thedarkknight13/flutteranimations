@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutteranimations/3d_drawer/example_3d_drawer.dart';
+import 'package:flutteranimations/animated_prompt/example_animated_prompt.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Example3dDrawer(),
+      home: ExampleAnimatedPrompt(),
     );
   }
 }
