@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutteranimations/polygons/polygons.dart';
+import 'package:flutteranimations/3d_drawer/example_3d_drawer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Polygons(),
+      home: Example3dDrawer(),
     );
   }
 }
